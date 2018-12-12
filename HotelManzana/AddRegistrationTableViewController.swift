@@ -8,7 +8,13 @@
 
 import UIKit
 
-class AddRegistrationTableViewController: UITableViewController {
+class AddRegistrationTableViewController: UITableViewController,
+SelectRoomTypeTableViewControllerDelegate {
+    
+    func didSelect(roomType: RoomType) {
+        self.roomType = roomType
+        updateRoomType()
+    }
     
     let checkInDatePickerCellIndexPath = IndexPath(row: 1, section: 1)
     let checkOutDatePickerCellIndexPath = IndexPath(row: 3, section: 1)
