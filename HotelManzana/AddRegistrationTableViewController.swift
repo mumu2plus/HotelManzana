@@ -183,4 +183,13 @@ SelectRoomTypeTableViewControllerDelegate {
     
     @IBAction func wifiSwitchChanged(_ sender: UISwitch) {
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "SelectRoomType" {
+            let destinationViewController = segue.destination as?
+                SelectRoomTypeTableViewController
+            destinationViewController?.delegate = self
+            destinationViewController?.roomType = roomType
+        }
+    }
 }
