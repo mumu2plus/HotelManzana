@@ -14,6 +14,7 @@
 		1B28769B21C0009B002992F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28769A21C0009B002992F7 /* Model.swift */; };
 		1B28769D21C0114A002992F7 /* AddRegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28769C21C0114A002992F7 /* AddRegistrationTableViewController.swift */; };
 		1B28769F21C12CC1002992F7 /* SelectRoomTypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B28769E21C12CC1002992F7 /* SelectRoomTypeTableViewController.swift */; };
+		1B2876A121C1EBF2002992F7 /* RegistrationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2876A021C1EBF2002992F7 /* RegistrationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1B28769A21C0009B002992F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1B28769C21C0114A002992F7 /* AddRegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistrationTableViewController.swift; sourceTree = "<group>"; };
 		1B28769E21C12CC1002992F7 /* SelectRoomTypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRoomTypeTableViewController.swift; sourceTree = "<group>"; };
+		1B2876A021C1EBF2002992F7 /* RegistrationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				1B28769C21C0114A002992F7 /* AddRegistrationTableViewController.swift */,
 				1B28768821BFFEC8002992F7 /* AppDelegate.swift */,
 				1B28769A21C0009B002992F7 /* Model.swift */,
+				1B2876A021C1EBF2002992F7 /* RegistrationTableViewController.swift */,
 				1B28769E21C12CC1002992F7 /* SelectRoomTypeTableViewController.swift */,
 				1B28768F21BFFECA002992F7 /* Assets.xcassets */,
 				1B28769121BFFECA002992F7 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				1B28769F21C12CC1002992F7 /* SelectRoomTypeTableViewController.swift in Sources */,
 				1B28769D21C0114A002992F7 /* AddRegistrationTableViewController.swift in Sources */,
 				1B28768921BFFEC8002992F7 /* AppDelegate.swift in Sources */,
+				1B2876A121C1EBF2002992F7 /* RegistrationTableViewController.swift in Sources */,
 				1B28769B21C0009B002992F7 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
